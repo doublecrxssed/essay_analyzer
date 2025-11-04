@@ -1,0 +1,7 @@
+streamlit>=1.0
+matplotlib>=3.0
+numpy>=1.18
+pandas>=1.0
+pillow>=8.0
+reportlab>=3.6
+spacy>=3.0

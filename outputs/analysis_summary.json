@@ -1,0 +1,64 @@
+{
+    "sentence_length": {
+        "count_sentences": 8,
+        "mean": 7.5,
+        "std": 1.8027756377319946,
+        "cv": 0.2403700850309326,
+        "entropy": 1.9999999942292197,
+        "hist_bins": 5,
+        "hist_sample": [
+            8,
+            7,
+            10,
+            5,
+            8,
+            7,
+            10,
+            5
+        ]
+    },
+    "lexical_diversity": {
+        "total_tokens": 60,
+        "global_ttr": 0.4,
+        "mtld": 60.0,
+        "window_size": 10,
+        "stride": 5,
+        "mean_uwr": 0.9727272727272728,
+        "std_uwr": 0.04453617714151232,
+        "windows": {
+            "centers": [
+                5,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                55
+            ],
+            "uwr": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.9
+            ]
+        },
+        "low_diversity_zones": []
+    },
+    "generated_paths": {
+        "hist_png": "/Users/shivamkulkarni/Desktop/recovered/Essay_Analyzer_App/outputs/sentence_length_hist.png",
+        "lex_png": "/Users/shivamkulkarni/Desktop/recovered/Essay_Analyzer_App/outputs/lexical_diversity_curve.png",
+        "pdf": "/Users/shivamkulkarni/Desktop/recovered/Essay_Analyzer_App/outputs/essay_onepager.pdf",
+        "json": "/Users/shivamkulkarni/Desktop/recovered/Essay_Analyzer_App/outputs/analysis_summary.json"
+    }
+}
